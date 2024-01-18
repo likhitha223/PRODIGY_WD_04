@@ -1,0 +1,91 @@
+index.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kappala Likhitha - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kappala Likhitha</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <div>
+            <img src="https://drive.google.com/file/d/1_eMs47M_VseST3hOQSmfqsw9frq-HrK8/view?usp=drivesdk" alt="Kappala Likhitha">
+        </div>
+        <div>
+            <h2>Hi, I’m Likhitha! I’m a web developer</h2>
+            <p>In a nutshell, I create websites that help organizations address business challenges and meet their needs. I manage everything from website navigation and layout to a company’s web hosting and security architecture. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, React, and of course HTML/CSS. I’m a lifelong learner and love to read, run, and find new opportunities</p>
+
+            <h3>BTech </h3>
+            <p>BATCHELOR OF ELECTRICAL AND ELECTRONIC ENGINEERING
+JNTU ANANTAPUR
+G. PULLA REDDY ENGINEERING COLLEGE.</p>
+
+            <h3>intern</h3>
+            <p>experience with version control systems, and a thorough understanding of the architecture of web applications and web security and encryption.</p>
+        </div>
+    </section>
+
+    <!-- Add more sections for projects, skills, etc. -->
+
+    <footer>
+        <p>&copy; 2023 kappala Likhitha</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+styles.css:
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
